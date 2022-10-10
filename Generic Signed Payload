@@ -16,7 +16,7 @@ superseded-by (*optional): <TIP number(s)>
 ## Abstract
 
 The payload concept offers a very flexible way to combine and encapsulate information in the IOTA protocol. 
-This document proposes a basic payload type that include a layer 2 content type identification field.
+This document proposes a basic Layer 1 payload type that include a layer 2 content type identification field.
 
 ## Motivation
 
