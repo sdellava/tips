@@ -63,7 +63,7 @@ Layer 2 Payload type table
 | 4            | STREAMS payload                                                                           |
 
 Other Values type can be added on request.
-Each Payload type need a dedicated TIP descibing the Layer 2 serialization layout
+Each Payload type need a dedicated TIP describing the Layer 2 serialization layout
 
 
 
