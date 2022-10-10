@@ -35,7 +35,11 @@ One possible solution is to sign every message entered. Nodes do not have to che
 
 This solution has not been accepted by the developer community, which is essentially asking for the signature to be included in the Layer 2 payload.
 
-This option is certainly viable, but since each Layer 2 application has its own payload format, in order to avoid error confusion, to simplify the applications themselves and to reduce as much as possible the effort of Layer 2 applications in validating their messages, it is desirable to at least introduce an "applciation type" field at Layer 1, the equivalent of the "protocol" field of the IP network protocol.
+This option is certainly viable, but since each Layer 2 application has its own payload format, in order to avoid errors, ambiguity, confusion, to simplify the applications themselves and to reduce as much as possible the effort of Layer 2 applications in validating their messages, it is desirable to at least introduce an "applciation type" field at Layer 1, the equivalent of the "protocol" field of the IP network protocol.
+
+An application receiving the block stream from the node can easily apply a filter and choose only the blocks of the Data Payload type and then choose only those that have a specific the Payload Type. 
+Finally, each payload type will have its own structure described in appropriate TIPs: the receiving application can either apply payload validation logic and process it, or discard the block if the payload is invalid.
+
 
 ## Specification
 
@@ -63,9 +67,6 @@ Layer 2 Payload type table
 | 4            | STREAMS payload                                                                           |
 
 Other Values type can be added on request.
-Each Payload type need a dedicated TIP describing the Layer 2 serialization layout
-
-
 
 ## Rationale
 This is a very simple soltution to allow to build Layer 2 applications that discriminate the Layer 1 content and discard any block not cointaining useful data.
