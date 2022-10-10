@@ -1,7 +1,7 @@
 ---
 tip: <to be assigned>
 title: <Data Paload>
-description: <Standard format of a Tangle message containing a data payload>
+description: <Standard format of a Tangle block containing a data payload>
 author: <Stefano Della Valle (@sdellava)>
 discussions-to: <https://github.com/iotaledger/tips/discussions/100>
 status: Draft
@@ -43,7 +43,7 @@ Detailed design
 
 Serialized Layout
 
-The following table describes the serialization of Data field of a _Generic Data Payload_ following the notation from [TIP-21](../TIP-0021/tip-0021.md):
+The following table describes the serialization of Data field of a _Data Payload_ following the notation from [TIP-21](../TIP-0021/tip-0021.md):
 
 | Name                 | Type              | Description                                                                               |
 |----------------------|-------------------|-------------------------------------------------------------------------------------------|
