@@ -22,7 +22,7 @@ This document proposes a basic Layer 1 payload type that include a layer 2 conte
 
 IOTA provides the very useful feature of publishing no-cost blocks that may contain data. The registry thus becomes a reliable transport layer for sending data, i.e., a layer on which to base the design of applications that require maximum reliability in sending data.
 
-Of course, the registry cannot indefinitely hold all data that is published, so nodes must remove these blocks from their databases.
+Of course, the ledger cannot indefinitely hold all data that is published, so nodes must remove these blocks from their databases.
 
 This in part nullifies the advantage of the network for the transmission of critical data because the receiver has to worry about always being listening and not missing any message intended for him. 
 
