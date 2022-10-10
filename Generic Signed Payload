@@ -62,7 +62,7 @@ Layer 2 Payload type table
 | 3            | Distributed Identity application payload                                                  |
 | 4            | STREAMS payload                                                                           |
 
-Other Value type can be added on request.
+Other Values type can be added on request.
 Each Payload type need a dedicated TIP descibing the Layer 2 serialization layout
 
 
