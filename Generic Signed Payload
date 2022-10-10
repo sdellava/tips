@@ -43,7 +43,7 @@ Detailed design
 
 Serialized Layout
 
-The following table describes the serialization of Data field of a _Singed Tagged Data Payload_ following the notation from [TIP-21](../TIP-0021/tip-0021.md):
+The following table describes the serialization of Data field of a _Generic Data Payload_ following the notation from [TIP-21](../TIP-0021/tip-0021.md):
 
 | Name                 | Type              | Description                                                                               |
 |----------------------|-------------------|-------------------------------------------------------------------------------------------|
